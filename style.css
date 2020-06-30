@@ -1,0 +1,152 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: dimgray;
+}
+
+h1{
+    color: crimson;
+    font-size: 50px;
+}
+
+h4{
+    font-size: 40px;
+    color: #000;
+}
+
+img{
+    width: 50%;
+    height: 100%;
+}
+.half-part{
+    width: 30%;
+    float: left;
+    margin: 100px;
+    padding: 30px;
+    
+}
+
+.top{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+
+a{
+    text-decoration: none;
+    width: 200px;
+    height: 80px;
+    background-color: crimson;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.button{
+    margin-top: 50px;
+}
+
+.profile2 {
+    margin-top: 0px;
+    width: 100%;
+    height: 380px;
+}
+
+.bio{
+    margin-top: 150px ;
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    height: 650px;
+}
+.second-part{
+    width: 30%;
+    float: left;
+    margin: 100px;
+    padding: 30px;
+  
+}
+
+.pic-details{
+    position: absolute;
+}
+
+.latest-work{
+    margin-top: 150px;
+    margin-left: 100px;
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.center-heading{
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+}
+
+.latest-img{
+    width: 30%;
+}
+
+.client{
+    margin-top: 250px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 20px;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    height: 850px;
+    color: #000;
+}
+
+.client-name{
+   
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 100px;
+    color: crimson;
+}
+.client-title{
+    text-align: center;
+    font-size: 18px;
+    color: olive;
+}
+.saying{
+    font-size: 15px;
+   font-weight: normal;
+}
+
+.message-box{
+    width: 60%;
+    height: 150px;
+    background-image: linear-gradient(180deg, crimson, salmon);
+    margin-top: 200px;
+    margin-left: 20%;
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.leave-message{
+    color: gainsboro;
+    font-size: 20px;
+}
+
+.e-mail{
+    color: gainsboro;
+    font-size: 35px;
+}
+
+footer{
+    margin-top: 30px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 150px;
+}
