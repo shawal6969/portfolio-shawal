@@ -97,7 +97,7 @@ a{
     padding-bottom: 20px;
     background-image: url(images/footer-bg.png);
     background-repeat: no-repeat;
-    height: 850px;
+    height: 935px;
     color: #000;
 }
 
@@ -128,6 +128,7 @@ a{
     border-radius: 15px;
     padding-top: 20px;
     padding-bottom: 20px;
+    box-shadow: 10px 10px 7px salmon;
 }
 
 .leave-message{
@@ -140,13 +141,50 @@ a{
     font-size: 35px;
 }
 
+.form{
+    margin-top: 150px;
+}
+
+.input-field{
+    border-radius: 10px;
+    width: 400px;
+    height: 50px;
+    padding: 12px;
+    font-size: 30px;
+    border-style: 2px solid dimgrey;
+}
+
+.subscribe {
+    height: 50px;
+    width: 180px;
+    border-radius: 10px;
+    border-style: none;
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+    background-image: linear-gradient(180deg, crimson, salmon);
+    color: white;
+    font-size: 25px;
+    padding: 0px;
+    padding-top: 7px;
+    box-shadow: 10px 10px 40px black;
+}
+
+.subscribe:hover{
+   height: 55px;
+   width: 190px;
+   padding-top: 20px;
+}
+
+
 footer{
     margin-top: 30px;
+    padding-bottom: 10px;
 }
 
 footer p{
     text-align: center;
     font-size: 12px;
     font-weight: normal;
-    margin-top: 150px;
+    margin-top: 90px;
 }
